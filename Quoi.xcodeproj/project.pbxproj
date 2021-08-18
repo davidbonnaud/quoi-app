@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56E7558126CCF3C600381A41 /* quoi_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E7558026CCF3C600381A41 /* quoi_appApp.swift */; };
+		56E7558126CCF3C600381A41 /* quoi-appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E7558026CCF3C600381A41 /* quoi-appApp.swift */; };
 		56E7558326CCF3C600381A41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E7558226CCF3C600381A41 /* ContentView.swift */; };
 		56E7558526CCF3C700381A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E7558426CCF3C700381A41 /* Assets.xcassets */; };
 		56E7558826CCF3C700381A41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E7558726CCF3C700381A41 /* Preview Assets.xcassets */; };
 		56E7558A26CCF3C700381A41 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E7558926CCF3C700381A41 /* Persistence.swift */; };
 		56E7558D26CCF3C700381A41 /* quoi_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56E7558B26CCF3C700381A41 /* quoi_app.xcdatamodeld */; };
+		56E7559A26CD0A3A00381A41 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E7559926CD0A3A00381A41 /* Constant.swift */; };
+		56E7559C26CD15B300381A41 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E7559B26CD15B300381A41 /* HideKeyboardExtension.swift */; };
+		56E755A126CD18E100381A41 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E755A026CD18E100381A41 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		56E7557D26CCF3C600381A41 /* quoi-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quoi-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		56E7558026CCF3C600381A41 /* quoi_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quoi_appApp.swift; sourceTree = "<group>"; };
+		56E7557D26CCF3C600381A41 /* Quoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E7558026CCF3C600381A41 /* quoi-appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "quoi-appApp.swift"; sourceTree = "<group>"; };
 		56E7558226CCF3C600381A41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56E7558426CCF3C700381A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56E7558726CCF3C700381A41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		56E7558926CCF3C700381A41 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		56E7558C26CCF3C700381A41 /* quoi_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = quoi_app.xcdatamodel; sourceTree = "<group>"; };
 		56E7558E26CCF3C700381A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E7559926CD0A3A00381A41 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		56E7559B26CD15B300381A41 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		56E755A026CD18E100381A41 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		56E7557E26CCF3C600381A41 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56E7557D26CCF3C600381A41 /* quoi-app.app */,
+				56E7557D26CCF3C600381A41 /* Quoi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +62,14 @@
 		56E7557F26CCF3C600381A41 /* quoi-app */ = {
 			isa = PBXGroup;
 			children = (
-				56E7558026CCF3C600381A41 /* quoi_appApp.swift */,
-				56E7558226CCF3C600381A41 /* ContentView.swift */,
+				56E7559826CD00E900381A41 /* Style */,
+				56E7559626CD00B800381A41 /* Utility */,
+				56E7558026CCF3C600381A41 /* quoi-appApp.swift */,
+				56E7559426CD004C00381A41 /* View */,
+				56E7559526CD008B00381A41 /* Model */,
+				56E7559726CD00CB00381A41 /* Extension */,
 				56E7558426CCF3C700381A41 /* Assets.xcassets */,
-				56E7558926CCF3C700381A41 /* Persistence.swift */,
 				56E7558E26CCF3C700381A41 /* Info.plist */,
-				56E7558B26CCF3C700381A41 /* quoi_app.xcdatamodeld */,
 				56E7558626CCF3C700381A41 /* Preview Content */,
 			);
 			path = "quoi-app";
@@ -75,12 +83,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		56E7559426CD004C00381A41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56E7558226CCF3C600381A41 /* ContentView.swift */,
+				56E755A026CD18E100381A41 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56E7559526CD008B00381A41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56E7558926CCF3C700381A41 /* Persistence.swift */,
+				56E7558B26CCF3C700381A41 /* quoi_app.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56E7559626CD00B800381A41 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				56E7559926CD0A3A00381A41 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		56E7559726CD00CB00381A41 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				56E7559B26CD15B300381A41 /* HideKeyboardExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		56E7559826CD00E900381A41 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		56E7557C26CCF3C500381A41 /* quoi-app */ = {
+		56E7557C26CCF3C500381A41 /* Quoi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56E7559126CCF3C700381A41 /* Build configuration list for PBXNativeTarget "quoi-app" */;
+			buildConfigurationList = 56E7559126CCF3C700381A41 /* Build configuration list for PBXNativeTarget "Quoi" */;
 			buildPhases = (
 				56E7557926CCF3C500381A41 /* Sources */,
 				56E7557A26CCF3C500381A41 /* Frameworks */,
@@ -90,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = "quoi-app";
+			name = Quoi;
 			productName = "quoi-app";
-			productReference = 56E7557D26CCF3C600381A41 /* quoi-app.app */;
+			productReference = 56E7557D26CCF3C600381A41 /* Quoi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 56E7557826CCF3C500381A41 /* Build configuration list for PBXProject "quoi-app" */;
+			buildConfigurationList = 56E7557826CCF3C500381A41 /* Build configuration list for PBXProject "Quoi" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56E7557C26CCF3C500381A41 /* quoi-app */,
+				56E7557C26CCF3C500381A41 /* Quoi */,
 			);
 		};
 /* End PBXProject section */
@@ -144,9 +193,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E755A126CD18E100381A41 /* CardView.swift in Sources */,
 				56E7558A26CCF3C700381A41 /* Persistence.swift in Sources */,
 				56E7558326CCF3C600381A41 /* ContentView.swift in Sources */,
-				56E7558126CCF3C600381A41 /* quoi_appApp.swift in Sources */,
+				56E7559A26CD0A3A00381A41 /* Constant.swift in Sources */,
+				56E7558126CCF3C600381A41 /* quoi-appApp.swift in Sources */,
+				56E7559C26CD15B300381A41 /* HideKeyboardExtension.swift in Sources */,
 				56E7558D26CCF3C700381A41 /* quoi_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		56E7557826CCF3C500381A41 /* Build configuration list for PBXProject "quoi-app" */ = {
+		56E7557826CCF3C500381A41 /* Build configuration list for PBXProject "Quoi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56E7558F26CCF3C700381A41 /* Debug */,
@@ -326,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56E7559126CCF3C700381A41 /* Build configuration list for PBXNativeTarget "quoi-app" */ = {
+		56E7559126CCF3C700381A41 /* Build configuration list for PBXNativeTarget "Quoi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56E7559226CCF3C700381A41 /* Debug */,
