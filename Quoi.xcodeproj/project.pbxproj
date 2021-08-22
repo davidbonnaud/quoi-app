@@ -15,7 +15,6 @@
 		56E7558D26CCF3C700381A41 /* quoi_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56E7558B26CCF3C700381A41 /* quoi_app.xcdatamodeld */; };
 		56E7559A26CD0A3A00381A41 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E7559926CD0A3A00381A41 /* Constant.swift */; };
 		56E7559C26CD15B300381A41 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E7559B26CD15B300381A41 /* HideKeyboardExtension.swift */; };
-		56E755A126CD18E100381A41 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E755A026CD18E100381A41 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		56E7558E26CCF3C700381A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56E7559926CD0A3A00381A41 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		56E7559B26CD15B300381A41 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
-		56E755A026CD18E100381A41 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				56E7558226CCF3C600381A41 /* ContentView.swift */,
-				56E755A026CD18E100381A41 /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56E755A126CD18E100381A41 /* CardView.swift in Sources */,
 				56E7558A26CCF3C700381A41 /* Persistence.swift in Sources */,
 				56E7558326CCF3C600381A41 /* ContentView.swift in Sources */,
 				56E7559A26CD0A3A00381A41 /* Constant.swift in Sources */,
