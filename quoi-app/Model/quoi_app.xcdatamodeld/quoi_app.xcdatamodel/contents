@@ -4,9 +4,10 @@
         <attribute name="entry" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="mastered" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="meaning" optional="YES" attributeType="String"/>
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
     </entity>
     <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Item" positionX="-63" positionY="-18" width="128" height="104"/>
     </elements>
 </model>
